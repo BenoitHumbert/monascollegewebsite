@@ -1,0 +1,63 @@
+.activite-img {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    display: block !important;
+    vertical-align: top !important;
+}
+
+img.activite-img {
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.home-carousel .col-sm-7 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.home-carousel .col-sm-7 img {
+    align-self: flex-start;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    vertical-align: top !important;
+    display: block;
+}
+
+img[src*="homescreen3.png"] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  vertical-align: top !important;
+  display: block !important;
+  align-self: flex-start !important;
+}
+
+/* Bandeau topbar MonAS Collège */
+#top {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 0;
+}
+#top a {
+  color: #fff;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  #top .col-xs-5, #top .col-xs-7 {
+    width: 100%;
+    text-align: center;
+  }
+  #top .social {
+    margin-top: 6px;
+  }
+}
+
+#top img.topbar-favicon {
+  height: 16px;
+  width: 16px;
+  vertical-align: baseline;
+  margin-right: 6px;
+}

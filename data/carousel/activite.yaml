@@ -1,0 +1,11 @@
+weight: 4
+title: "Activité"
+description: >
+  <ul class="list-style-none">
+    <li>Tous les détails des activités</li>
+    <li>pour s'inscrire et consulter les inscrits</li>
+  </ul>  
+image: "img/activite3.png"
+image_class: "activite-img"
+
+# href: "https://devcows.github.io/hugo-universal-theme/"

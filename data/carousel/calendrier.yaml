@@ -1,0 +1,11 @@
+weight: 3
+title: "Calendrier"
+description: >
+  <ul class="list-style-none">
+    <li>Le calendrier accessible</li>
+    <li>7/7 24/24</li>
+  </ul>  
+image: "img/calendrier3.png"
+image_class: "activite-img"
+
+# href: "https://devcows.github.io/hugo-universal-theme/"

@@ -1,0 +1,9 @@
+weight: 1
+title: "MonAS Collège"
+description: >
+  <ul class="list-style-none">
+    <li>Toutes les infos de ton AS</li>
+    <li>à portée de clic</li>
+  </ul>  
+image: "img/Accueil2.png"
+# href: "https://devcows.github.io/hugo-universal-theme/"

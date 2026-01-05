@@ -1,0 +1,5 @@
+weight: 15
+name: "Connexion"
+icon: "fa-regular fa-user-lock"
+url: ""
+description: "Chaque utilisateur possède son compte protégé par un identifiant unique et un mot de passe"

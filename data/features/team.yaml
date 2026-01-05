@@ -1,0 +1,5 @@
+weight: 16
+name: "Les équipes"
+icon: "fa-solid fa-people-group"
+url: ""
+description: "Créez des équipes dans lesquelles les élèves peuvent directement s'inscrire (si vous avez validé l'autorisation)"

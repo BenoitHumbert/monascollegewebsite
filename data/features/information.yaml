@@ -1,0 +1,5 @@
+weight: 14
+name: "Informations"
+icon: "fa-solid fa-circle-info"
+url: ""
+description: "La section informations vous permet de présenter les infos essentielles de votre AS comme l'encadrement, votre district ou encore les activités et horaires sur le temps de midi."

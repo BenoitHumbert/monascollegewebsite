@@ -1,0 +1,5 @@
+weight: 12
+name: "Groupes d'AS"
+icon: "fa-solid fa-people-group"
+url: ""
+description: "Créez vos groupes d'AS et inscrivez-y vos élèves. Seuls les élèves appartenant au groupe auront accès aux journées spécifiques à ce groupe."

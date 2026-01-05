@@ -1,0 +1,5 @@
+weight: 7
+name: "Communication"
+icon: "fa-regular fa-envelope"
+url: ""
+description: "Ajoutez une adresse mail pour chaque catégorie et les élèves de la catégorie pourront envoyer un mail depuis l'application"

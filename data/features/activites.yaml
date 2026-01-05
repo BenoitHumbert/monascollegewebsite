@@ -1,0 +1,5 @@
+weight: 2
+name: "Activités"
+icon: "fa-solid fa-person-running"
+url: ""
+description: "Publiez des activités en précisant les horaires, le lieu, nombre de places et toutes les informations nécessaires au bon déroulement de la journée"

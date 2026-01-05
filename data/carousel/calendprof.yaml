@@ -1,0 +1,12 @@
+weight: 5
+title: "Gestion professeur"
+description: >
+  <ul class="list-style-none">
+    <li>Gérer toutes les catégories</li>
+    <li>et groupes</li>
+    <li>en quelques clics</li>
+  </ul>  
+image: "img/calendprof3.png"
+image_class: "activite-img"
+
+# href: "https://devcows.github.io/hugo-universal-theme/"

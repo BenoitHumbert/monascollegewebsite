@@ -1,0 +1,12 @@
+weight: 2
+title: "Connexion sécurisée"
+description: >
+  <ul class="list-style-none">
+    <li>Et gestion des données</li>
+    <li>en conformité avec les exigences</li>
+    <li>du RGPD</li>
+  </ul>  
+image: "img/homescreen3.png"
+image_class: "activite-img"
+
+# href: "https://devcows.github.io/hugo-universal-theme/"

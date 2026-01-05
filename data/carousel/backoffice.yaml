@@ -1,0 +1,12 @@
+weight: 7
+title: "Interface d'administration"
+description: >
+  <ul class="list-style-none">
+    <li>Gérez facilement vos données</li>
+    <li>Céation de calendriers, groupes, activités...</li>
+    <li>facilement depuis le site internet</li>
+    <li>dédié</li>
+  </ul>  
+image: "img/backoffice3.png"
+
+# href: "https://devcows.github.io/hugo-universal-theme/"

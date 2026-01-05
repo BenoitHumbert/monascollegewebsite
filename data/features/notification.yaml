@@ -1,0 +1,5 @@
+weight: 9
+name: "Notifications"
+icon: "fa-regular fa-bell"
+url: ""
+description: "Une information de dernière minute ? L'ouverture des inscriptions pour la patinoire ? Une annulation ? Pas de panique, envoyez une notification sur tous les téléphones des élèves concernés. Tout le monde à l'info en même temps."

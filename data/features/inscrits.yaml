@@ -1,0 +1,5 @@
+weight: 5
+name: "Les inscrits"
+icon: "fa-solid fa-user-group"
+url: ""
+description: "Consultez en temps réel quels sont les élèves inscrits aux activités. Possibilité de les inscrire/désinscrire vous même."

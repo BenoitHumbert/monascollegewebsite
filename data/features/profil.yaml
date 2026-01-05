@@ -1,0 +1,5 @@
+weight: 11
+name: "Mon profil"
+icon: "fa-regular fa-address-card"
+url: ""
+description: "Retrouvez les informations de votre profil et modifiez-les si nécessaire. Vous pouvez également supprimer votre compte"

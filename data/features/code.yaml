@@ -1,0 +1,5 @@
+weight: 10
+name: "Code collège"
+icon: "fa-solid fa-key"
+url: ""
+description: "Définissez un code collège personnalisé pour que seuls vos licenciés accèdent aux données de votre AS. Changez-le chaque année (ou pas !)"

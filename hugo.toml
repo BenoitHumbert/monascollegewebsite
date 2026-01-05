@@ -1,0 +1,116 @@
+baseURL = "https://monascollege.fr/"
+languageCode = 'en-us'
+title = 'MonAS Collège | Gérez votre AS en toute sérénité'
+theme = "hugo-universal-theme"
+defaultContentLanguage = "fr"
+
+
+
+[services]
+[services.googleAnalytics]
+# TODO: Changer l'ID Google Analytics pour le site du collège
+id = "G-G5Y5M1HHHG"
+
+[params]
+    style = "blue"
+    theme_color = "#5c3d99"
+    disabled_logo = false
+    logo_text = "Universal"
+    logo = "img/icon_lyc1_large.png"
+    logo_small = "img/icon_lyc_small.png"
+
+    defaultDescription = "Application de gestion de l'AS pour les collèges : gestion des inscriptions, compétitions et plus."
+    defaultKeywords = ["EPS", "application", "AS", "collège", "sport scolaire", "monas", "monascollege"]
+    default_sharing_image = "img/sharing-default.png"
+
+    enableGoogleMaps = false
+
+    # TODO: Changer l'email de contact pour le collège
+    email = "monascollege@bhdev.org"
+    contact_form_ajax = true
+    # TODO: Créer un nouveau formulaire Formspree pour le collège
+    formspree_action = "https://formspree.io/f/xkogyyyq"
+
+    enableRecaptchaInContactForm = false
+    googleRecaptchaKey = "site_key_for_google_recaptcha"
+
+
+    about_us = "<p>Une app pour les élèves et profs d'EPS conçue par un prof d'EPS sous le 🌦️ des Premiers Sapins ❤️</p>"
+    copyright = "Copyright (c) 2026 ,BHDev - Tous droits réservés."
+
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>BHDev</strong>
+        <br>25580 Les Premiers Sapins
+        <br>
+        <strong>France</strong>
+      </p>
+      """
+
+[menu]
+[[menu.main]]
+    name = "Accueil"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Tarifs"
+    url  = "/tarifs"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact"
+    weight = 3
+
+[[menu.main]]
+    name = "Se connecter"
+    # TODO: Changer l'URL vers l'interface web du collège
+    url  = "https://monascollege.bhdev.org"
+    weight = 4
+
+[[menu.main]]
+    name = "Créer un compte"
+    # TODO: Changer l'URL vers l'interface web du collège
+    url  = "https://monascollege.bhdev.org/#registrations"
+    weight = 5
+
+[[params.menu]]
+    name = "Contact"
+    url  = "/contact"
+    weight = 6
+
+[[menu.topbar]]
+    # supprimé: icône enveloppe à droite du bandeau
+
+[params.topbar]
+    # TODO: Changer les liens App Store et Play Store pour les applications collège
+    enable = true
+    text = """<img src="/favicon.ico" alt="MonAS Collège" class="topbar-favicon"> <strong>MonAS Collège</strong> — Téléchargez l'app : <a href="https://play.google.com/store/apps/details?id=org.bhdev.monascollege.android&hl=fr&pli=1" target="_blank" rel="noopener">Android</a> · <a href="https://apps.apple.com/fr/app/monas-coll%C3%A8ge/id6467621193" target="_blank" rel="noopener">iOS</a>"""
+
+[params.carouselHomepage]
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+    height = "200px"
+
+
+[params.features]
+    enable = true
+    cols = 3
+
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more information take a look at the README.
+    title = "Pourquoi une application mobile ?"
+    subtitle = """Terminé les récrés dans la cour, sous la pluie à aller chercher les élèves pour leur demander de s'inscrire à l'AS. 
+    Fini de rentrer le soir chez toi en te demandant comment tu vas faire passer l'info pour la compétition de mercredi prochain.
+    Avec MonAS Collège, te voilà serein... Tu publies les informations (Lieu, horaires, etc..), et les élèves s'inscrivent depuis l'application.​
+    Terminé les affiches collées dans la cour. Dorénavant l'information est disponible 24/24 7/7.
+    Intuitive, rapide et sécurisée, l'application offre tout le confort d'une technologie maîtrisée et adaptée.​ N'attends plus ! 
+    Abonne ton collège à MonAS Collège dès aujourd'hui."""
+
+
+

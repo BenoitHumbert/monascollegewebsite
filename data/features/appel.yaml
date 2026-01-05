@@ -1,0 +1,5 @@
+weight: 3
+name: "Appel"
+icon: "fa-solid fa-list-check"
+url: ""
+description: "Faire l'appel depuis l'appli et et l'exporter en pdf ou xlsx (Excel) à l'adresse de son choix"

@@ -1,0 +1,5 @@
+weight: 6
+name: "Suivi élèves"
+icon: "fa-solid fa-check"
+url: ""
+description: "Retrouver la liste des activités auxquelles chaque élève a participé"
