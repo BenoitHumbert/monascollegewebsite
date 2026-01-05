@@ -61,3 +61,12 @@ img[src*="homescreen3.png"] {
   vertical-align: baseline;
   margin-right: 6px;
 }
+
+/* Bandeau titre des pages (Tarifs, Contact, etc.) */
+#heading-breadcrumbs {
+  background: #2d6cb4;
+  background-image: none;
+}
+#heading-breadcrumbs h1 {
+  color: #fff;
+}
