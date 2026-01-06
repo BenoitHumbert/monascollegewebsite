@@ -1,8 +1,8 @@
+/* Images des activités dans le carousel */
 .activite-img {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    display: block !important;
-    vertical-align: top !important;
+  margin-top: 0;
+  padding-top: 0;
+  display: block;
 }
 
 img.activite-img {
@@ -12,26 +12,24 @@ img.activite-img {
   object-fit: contain;
 }
 
-
+/* Carousel page d'accueil */
 .home-carousel .col-sm-7 {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .home-carousel .col-sm-7 img {
-    align-self: flex-start;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    vertical-align: top !important;
-    display: block;
+  align-self: flex-start;
+  margin-top: 0;
+  padding-top: 0;
+  display: block;
 }
 
 img[src*="homescreen3.png"] {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  vertical-align: top !important;
-  display: block !important;
-  align-self: flex-start !important;
+  margin-top: 0;
+  padding-top: 0;
+  display: block;
+  align-self: flex-start;
 }
 
 /* Bandeau topbar MonAS Collège */
@@ -41,18 +39,10 @@ img[src*="homescreen3.png"] {
   font-size: 14px;
   padding: 6px 0;
 }
+
 #top a {
   color: #fff;
   text-decoration: underline;
-}
-@media (max-width: 767px) {
-  #top .col-xs-5, #top .col-xs-7 {
-    width: 100%;
-    text-align: center;
-  }
-  #top .social {
-    margin-top: 6px;
-  }
 }
 
 #top img.topbar-favicon {
@@ -62,11 +52,23 @@ img[src*="homescreen3.png"] {
   margin-right: 6px;
 }
 
+@media (max-width: 767px) {
+  #top .col-xs-5,
+  #top .col-xs-7 {
+    width: 100%;
+    text-align: center;
+  }
+  #top .social {
+    margin-top: 6px;
+  }
+}
+
 /* Bandeau titre des pages (Tarifs, Contact, etc.) */
 #heading-breadcrumbs {
   background: #2d6cb4;
   background-image: none;
 }
+
 #heading-breadcrumbs h1 {
   color: #fff;
 }
