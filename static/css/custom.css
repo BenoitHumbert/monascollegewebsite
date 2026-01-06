@@ -70,3 +70,23 @@ img[src*="homescreen3.png"] {
 #heading-breadcrumbs h1 {
   color: #fff;
 }
+
+/* Section Testimonials - fond teinté bleu */
+.bar.background-pentagon {
+  background:
+    linear-gradient(rgba(45, 108, 180, 0.5), rgba(45, 108, 180, 0.5)),
+    url('../img/texture-bw.png') center center repeat;
+  border-top: solid 1px #7aa8d4;
+  border-bottom: solid 1px #7aa8d4;
+}
+
+/* Masquer les avatars dans la section FAQ/Testimonials */
+.testimonials .name-picture img {
+  display: none;
+}
+
+/* Texte sous le titre "Pourquoi une application mobile ?" */
+.bar.background-pentagon .lead {
+  color: #1a3a5c;
+  text-align: justify;
+}

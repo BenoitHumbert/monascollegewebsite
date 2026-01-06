@@ -4,7 +4,10 @@ title = 'MonAS Collège | Gérez votre AS en toute sérénité'
 theme = "hugo-universal-theme"
 defaultContentLanguage = "fr"
 
-
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [services]
 [services.googleAnalytics]
@@ -105,12 +108,7 @@ id = "G-G5Y5M1HHHG"
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
     title = "Pourquoi une application mobile ?"
-    subtitle = """Terminé les récrés dans la cour, sous la pluie à aller chercher les élèves pour leur demander de s'inscrire à l'AS. 
-    Fini de rentrer le soir chez toi en te demandant comment tu vas faire passer l'info pour la compétition de mercredi prochain.
-    Avec MonAS Collège, te voilà serein... Tu publies les informations (Lieu, horaires, etc..), et les élèves s'inscrivent depuis l'application.​
-    Terminé les affiches collées dans la cour. Dorénavant l'information est disponible 24/24 7/7.
-    Intuitive, rapide et sécurisée, l'application offre tout le confort d'une technologie maîtrisée et adaptée.​ N'attends plus ! 
-    Abonne ton collège à MonAS Collège dès aujourd'hui."""
+    subtitle = """🚀 **Simplifie la vie de ton AS, dès aujourd'hui !**<br><br>Fini les récrés passées sous la pluie à courir après les élèves ☔<br>Fini les messages qui n'arrivent jamais à temps pour la compétition de mercredi ❌<br>Fini les affiches collées dans la cour… et oubliées aussitôt 📄<br><br>Avec MonAS Collège, reprends le contrôle 💪<br>En quelques clics, tu publies toutes les infos importantes (lieu, horaires, compétitions, convocations…).<br>**Les élèves reçoivent l'information instantanément et s'inscrivent directement depuis l'application** 📱<br><br>**✅ Information claire et centralisée**<br>**✅ Accessible 24h/24 – 7j/7**<br>**✅ Application intuitive, rapide et sécurisée**<br><br>Résultat ?<br>Moins de stress, moins de pertes d'information, plus de participation 👍<br><br>👉 N'attends plus.<br>**Abonne ton collège à MonAS Collège et consacre ton temps à l'essentiel : le sport et les élèves.**"""
 
 
 
