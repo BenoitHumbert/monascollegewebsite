@@ -11,3 +11,18 @@
 .box-simple {
   min-height: 230px;
 }
+
+/* Supprime l'espace blanc entre le carrousel et la section testimonials */
+.home-carousel .owl-carousel {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+section:has(.home-carousel) {
+  margin-bottom: 0 !important;
+}
+
+.bar.background-pentagon {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
