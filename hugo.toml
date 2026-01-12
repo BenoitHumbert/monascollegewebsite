@@ -16,7 +16,7 @@ id = "G-G5Y5M1HHHG"
 
 [params]
     style = "blue"
-    theme_color = "#5c3d99"
+    theme_color = "#4582ec"
     disabled_logo = false
     logo_text = "Universal"
     logo = "img/icon_lyc1_large.png"

@@ -1,3 +1,8 @@
+/* Couleur de fond pour l'effet de bounce */
+body {
+  background-color: #4582ec;
+}
+
 .box-image-text .image {
   min-height: 190px;
   max-height: 190px;
