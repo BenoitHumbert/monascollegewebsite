@@ -88,7 +88,7 @@ id = "G-G5Y5M1HHHG"
 [params.topbar]
     # TODO: Changer les liens App Store et Play Store pour les applications collège
     enable = true
-    text = """<img src="/favicon.ico" alt="MonAS Collège" class="topbar-favicon"> <strong>MonAS Collège</strong> — Téléchargez l'app : <a href="https://play.google.com/store/apps/details?id=org.bhdev.monascollege.android&hl=fr&pli=1" target="_blank" rel="noopener">Android</a> · <a href="https://apps.apple.com/fr/app/monas-coll%C3%A8ge/id6467621193" target="_blank" rel="noopener">iOS</a>"""
+    text = """<img src="/img/icon_lyc_small.png" alt="MonAS Collège" class="topbar-favicon"> <strong>MonAS Collège</strong> — Téléchargez l'app : <a href="https://play.google.com/store/apps/details?id=org.bhdev.monascollege.android&hl=fr&pli=1" target="_blank" rel="noopener">Android</a> · <a href="https://apps.apple.com/fr/app/monas-coll%C3%A8ge/id6467621193" target="_blank" rel="noopener">iOS</a>"""
 
 [params.carouselHomepage]
     enable = true

@@ -3,6 +3,11 @@ body {
   background-color: #4582ec;
 }
 
+/* Assure que le contenu principal a un fond blanc */
+#all {
+  background-color: white;
+}
+
 .box-image-text .image {
   min-height: 190px;
   max-height: 190px;
@@ -30,4 +35,13 @@ section:has(.home-carousel) {
 .bar.background-pentagon {
   padding-top: 0 !important;
   margin-top: 0 !important;
+  background: white !important;
+  background-color: white !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+section.bar.background-pentagon {
+  background: white !important;
+  background-color: white !important;
 }
