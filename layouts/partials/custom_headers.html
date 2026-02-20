@@ -1,0 +1,122 @@
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Langue française explicite -->
+<meta http-equiv="Content-Language" content="fr">
+<link rel="alternate" hreflang="fr" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+
+<!-- Correction og:locale pour Facebook (fr_FR au lieu de fr) -->
+<meta property="og:locale" content="fr_FR">
+
+<!-- Schema.org JSON-LD : données structurées -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "MonAS Collège",
+  "url": "https://monascollege.fr/",
+  "description": "Application mobile pour gérer l'Association Sportive de votre collège : inscriptions aux activités, compétitions, convocations et notifications en temps réel.",
+  "applicationCategory": "EducationApplication",
+  "operatingSystem": "Android, iOS",
+  "offers": {
+    "@type": "Offer",
+    "price": "50",
+    "priceCurrency": "EUR",
+    "priceValidUntil": "2027-12-31",
+    "description": "Abonnement annuel, essai gratuit 6 semaines"
+  },
+  "screenshot": [
+    "https://monascollege.fr/img/Accueil2.png",
+    "https://monascollege.fr/img/calendrier3.png",
+    "https://monascollege.fr/img/activite3.png"
+  ],
+  "featureList": [
+    "Gestion des inscriptions aux activités sportives",
+    "Calendrier des compétitions et convocations",
+    "Notifications push en temps réel",
+    "Suivi des élèves",
+    "Interface administrateur (back-office)",
+    "Appel et gestion des présences",
+    "Communication avec les élèves"
+  ],
+  "inLanguage": "fr",
+  "publisher": {
+    "@type": "Organization",
+    "name": "BHDev",
+    "url": "https://monascollege.fr/",
+    "email": "monascollege@bhdev.org"
+  },
+  "audience": {
+    "@type": "EducationalAudience",
+    "educationalRole": "teacher",
+    "description": "Professeurs d'EPS et responsables d'Association Sportive en collège"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MonAS Collège",
+  "url": "https://monascollege.fr/",
+  "description": "Application mobile pour gérer l'Association Sportive de votre collège",
+  "inLanguage": "fr",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://monascollege.fr/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}
+
+{{ if eq .RelPermalink "/tarifs/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Tarifs MonAS Collège",
+  "url": "https://monascollege.fr/tarifs/",
+  "description": "Abonnement MonAS Collège : 50€/an pour un nombre de comptes illimité. Essai gratuit 6 semaines pour gérer l'Association Sportive de votre collège.",
+  "inLanguage": "fr",
+  "mainEntity": {
+    "@type": "Offer",
+    "name": "Abonnement annuel MonAS Collège",
+    "price": "50",
+    "priceCurrency": "EUR",
+    "description": "Abonnement annuel pour un nombre de comptes illimité. Inclut 6 semaines d'essai gratuit.",
+    "seller": {
+      "@type": "Organization",
+      "name": "BHDev"
+    }
+  }
+}
+</script>
+{{ end }}
+
+{{ if eq .RelPermalink "/contact/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact MonAS Collège",
+  "url": "https://monascollege.fr/contact/",
+  "description": "Contactez l'équipe MonAS Collège pour toute question sur l'application de gestion d'Association Sportive.",
+  "inLanguage": "fr",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "BHDev",
+    "email": "monascollege@bhdev.org",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Les Premiers Sapins",
+      "postalCode": "25580",
+      "addressCountry": "FR"
+    }
+  }
+}
+</script>
+{{ end }}
