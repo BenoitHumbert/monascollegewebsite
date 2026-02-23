@@ -3,6 +3,7 @@ languageCode = 'fr'
 title = 'MonAS Collège | Gérez votre AS en toute sérénité'
 theme = "hugo-universal-theme"
 defaultContentLanguage = "fr"
+disableKinds = ["taxonomy", "term"]
 
 [markup]
 [markup.goldmark]
@@ -22,7 +23,7 @@ id = "G-G5Y5M1HHHG"
     logo = "img/icon_lyc1_large.png"
     logo_small = "img/icon_lyc_small.png"
 
-    defaultDescription = "MonAS Collège est l'application mobile pour gérer l'Association Sportive de votre collège : inscriptions aux activités, compétitions, convocations et notifications en temps réel. Essai gratuit 6 semaines."
+    defaultDescription = "MonAS Collège est l'application mobile pour gérer l'Association Sportive de votre collège : inscriptions aux activités, compétitions, convocations et notifications en temps réel."
     defaultKeywords = ["EPS", "application mobile", "AS collège", "association sportive collège", "gestion AS", "sport scolaire", "monas", "monascollege", "inscription activités sportives collège", "UNSS"]
     default_sharing_image = "img/sharing-default.png"
 
